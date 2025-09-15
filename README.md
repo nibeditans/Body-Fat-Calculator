@@ -101,10 +101,10 @@ From this:
 
 ## Future Enhancements
 
-A lot of Features can be added in both the programs to enhance the UI and interactivilty. You can, 
-* Add BMI comparison and health range indicators.
+A lot of Features can be added in both the programs to enhance the UI and interactivilty. Like, 
+* Adding BMI comparison and health range indicators.
 * Option to export results as a PDF/CSV report.
-* Build a simple web app using **Streamlit** or **Flask**.
+* Building a simple web app using **Streamlit** or **Flask**.
 
 If you're also lazy, leave it as is!😂
 
