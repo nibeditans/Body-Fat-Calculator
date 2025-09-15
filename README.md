@@ -1,6 +1,6 @@
 # Body Fat Calculator
 
-This is an interactive Python Program that calculates Body Fat %, Fat Mass, and Lean Mass (in kg) from user inputs such as gender, age, height, weight, and body measurements.
+This is an interactive Python Program that calculates Body Fat %, Fat Mass (KG), and Lean Mass (KG) from user inputs such as gender, age, height, weight, and body measurements.
 
 I've created two implementations of the same core logic, to this repository.
 
@@ -17,7 +17,7 @@ I've created two implementations of the same core logic, to this repository.
 
 ## Features
 
-* Our Program basicallyt calculates:
+* Our Program basically calculates:
   * **Body Fat Percentage (%)**
   * **Fat Mass (kg)**
   * **Lean Mass (kg)**
