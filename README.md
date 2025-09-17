@@ -1,18 +1,18 @@
 # Body Fat Calculator
 
-This is an interactive Python Program that calculates Body Fat %, Fat Mass (KG), and Lean Mass (KG) from user inputs such as gender, age, height, weight, and body measurements.
-
-I've created two implementations of the same core logic, to this repository.
+This is an interactive Python Program that calculates Body Fat %, Fat Mass (KG), and Lean Mass (KG) from user inputs such as gender, age, height, weight, and body measurements. I've created two implementations of the same core logic, to this repository.
 
 1. **Command-Line Version (`Mass Calculator.py`)**
 
    * Pure Python using the built-in `math` module.
    * Takes input from the user and prints the results in a clean text format.
+   * Get the Code: [Mass_Calculator.py](https://github.com/nibeditans/Body-Fat-Calculator/blob/main/Mass_Calculator.py)
 
 2. **Interactive Notebook (`Mass Calculator.ipynb`)**
 
    * Built with **Jupyter Notebook**, and used `math`, `ipywidgets`, and `IPython.display`.
    * Provides sliders, color styling, and real-time updates for a more engaging experience.
+   * Get the Code: [Mass Calculator.ipynb](https://github.com/nibeditans/Body-Fat-Calculator/blob/main/Mass%20Calculator.ipynb)
 
 
 ## Features
