@@ -14,6 +14,9 @@ This is an interactive Python Program that calculates Body Fat %, Fat Mass (KG),
    * Provides sliders, color styling, and real-time updates for a more engaging experience.
    * Get the Code: [Mass Calculator.ipynb](https://github.com/nibeditans/Body-Fat-Calculator/blob/main/Mass%20Calculator.ipynb)
 
+<img width="1749" height="725" alt="image" src="https://github.com/user-attachments/assets/ba99b6c2-133d-4233-92c3-6496d70d7835" />
+
+This is just a screenshot, it's static. But you can simply download the notebook, or clone it and reuse it. Modify the program, add new features, or just play with it.😂 If you only wanna know your Body Fat Percentage, you can know that even from the `Mass Calculator.py` version. But if you wanna enhance it further and utilize your programming skills, just go ahead!😁
 
 ## Features
 
