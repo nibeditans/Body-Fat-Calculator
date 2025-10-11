@@ -22,7 +22,7 @@ This is just a screenshot, it's static. But you can simply download the notebook
 
 - A clean, modern web-based version built using Streamlit.
 - You don't have to install anything to use this Web App.
-- You can try it directly in your browser here 👉 [Live App](https://masscalculator.streamlit.app/)
+- You can try it directly in your browser here 👉 **[Live App](https://masscalculator.streamlit.app/)**
 
 ## Features
 
