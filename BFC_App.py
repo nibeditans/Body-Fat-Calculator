@@ -45,7 +45,7 @@ st.markdown(
 )
 
 # ---- Input Section ----
-gender = st.radio("Select Gender", ["Male", "Female"])
+gender = st.radio("Select Gender", ["Female", "Male"])
 
 col1, col2 = st.columns(2)
 with col1:
