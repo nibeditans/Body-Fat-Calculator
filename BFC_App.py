@@ -73,8 +73,8 @@ if st.button("Calculate"):
 
     st.subheader("Results")
     st.write(f"Body Fat Percentage: **{bf:.2f}%**")
-    st.write(f"**Fat Mass:** {fat:.2f} kg")
-    st.write(f"**Lean Mass:** {lean:.2f} kg")
+    st.write(f"Fat Mass: **{fat:.2f} kg**")
+    st.write(f"Lean Mass: **{lean:.2f} kg**")
 
     st.markdown("----")
     st.markdown("### 📝 Quick Reference (For Adults)")
