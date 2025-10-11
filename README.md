@@ -122,7 +122,7 @@ pip install -r requirements.txt
 
 ## Formula Used
 
-I've implemented the **U.S. Navy Body Fat Formula** in this Program, which calculates both for Men and Women. You can view the formula in the code, or simply search on internet. Or, you can simply read the complete article I have written on this Program: [Body Fat Calculator: Command-Line and Interactive Notebook](https://ai.plainenglish.io/body-fat-calculator-command-line-and-interactive-notebook-aa619e3d0f42)😛
+I've implemented the **U.S. Navy Body Fat Formula** in this Program, which calculates both for Men and Women. You can view the formula in the code, or simply search on internet. Or, you can simply read the complete article I have written on this Program: [Body Fat Calculator: Command-Line and Interactive Notebook](https://ai.plainenglish.io/body-fat-calculator-command-line-and-interactive-notebook-aa619e3d0f42).😛 I have explained the formula step-by-step in this article.
 
 From this:
 
