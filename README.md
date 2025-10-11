@@ -1,14 +1,14 @@
 # Body Fat Calculator
 
-This is an interactive Python Program that calculates Body Fat %, Fat Mass (KG), and Lean Mass (KG) from user inputs such as gender, age, height, weight, and body measurements. I've created two implementations of the same core logic, to this repository.
+This is an interactive Python Program that calculates Body Fat %, Fat Mass (KG), and Lean Mass (KG) from user inputs such as gender, age, height, weight, and body measurements. I've created three different implementations of the same core logic in this repository.
 
-1. **Command-Line Version (`Mass Calculator.py`)**
+## 1. **Command-Line Version (`Mass Calculator.py`)**
 
    * Pure Python using the built-in `math` module.
    * Takes input from the user and prints the results in a clean text format.
    * Get the Code: [Mass_Calculator.py](https://github.com/nibeditans/Body-Fat-Calculator/blob/main/Mass_Calculator.py)
 
-2. **Interactive Notebook (`Mass Calculator.ipynb`)**
+## 2. **Interactive Notebook (`Mass Calculator.ipynb`)**
 
    * Built with **Jupyter Notebook**, and used `math`, `ipywidgets`, and `IPython.display`.
    * Provides sliders, color styling, and real-time updates for a more engaging experience.
@@ -17,6 +17,12 @@ This is an interactive Python Program that calculates Body Fat %, Fat Mass (KG),
 <img width="1749" height="725" alt="image" src="https://github.com/user-attachments/assets/ba99b6c2-133d-4233-92c3-6496d70d7835" />
 
 This is just a screenshot, it's static. But you can simply download the notebook, or clone it and reuse it. Modify the program, add new features, or just play with it.😂 If you only wanna know your Body Fat Percentage, you can know that even from the `Mass Calculator.py` version. But if you wanna enhance it further and utilize your programming skills, just go ahead!😁
+
+## 3. 🌐 **Streamlit Web App (`BFC_App.py`) — NEW**
+
+- A clean, modern web-based version built using Streamlit.
+- You don't have to install anything to use this Web App.
+- You can try it directly in your browser here 👉 [Live App](https://masscalculator.streamlit.app/)
 
 ## Features
 
@@ -30,6 +36,13 @@ This is just a screenshot, it's static. But you can simply download the notebook
 * Interactive Jupyter version with sliders & live output.
   * You can also change the numbers using the sliders or simply type the number in the box, in real-time. 
 
+## Features of the Web App:
+
+* Calculates **Body Fat %**, **Fat Mass (kg)**, and **Lean Mass (kg)**
+* Neat UI with sections and reference tables
+* Works on desktop & mobile
+* Super fast and interactive — powered by Streamlit
+
 
 ## 📂 Repository Structure
 
@@ -38,6 +51,7 @@ Body-Fat-Calculator/
 │
 ├─ `Mass Calculator.py`      # Command-line version
 ├─ `Mass Calculator.ipynb`   # Jupyter Notebook interactive version
+├─ `BFC_APP.py`              # Streamlit version
 └─ README.md                 # Project documentation
 ```
 
@@ -77,11 +91,21 @@ jupyter notebook
 Open `Mass Calculator.ipynb`, run the cells, and move the sliders to see results update instantly. 
 
 
+### 3️. Streamlit Web App
+
+```bash
+pip install -r requirements.txt
+streamlit run BFC_App.py
+```
+Or simply use the [Live App](https://masscalculator.streamlit.app/)
+
 ## 🛠️ Requirements
 
 * **Python 3.8+**
 * `ipywidgets` (for the notebook)
 * `IPython.display` (for interactive UI)
+* `streamlit` (for the web app)
+* `pandas`, `math` (built-in / standard libs)
 
 Install notebook dependencies:
 
@@ -107,7 +131,8 @@ From this:
 A lot of Features can be added in both the programs to enhance the UI and interactivilty. Like, 
 * Adding BMI comparison and health range indicators.
 * Option to export results as a PDF/CSV report.
-* Building a simple web app using **Streamlit** or **Flask**.
+* Visualizing body fat trends over time
+* Enhancing or adding advanced features to the app using **Flask**.
 
 If you're also lazy, leave it as is!😂
 
