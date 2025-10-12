@@ -9,7 +9,6 @@ data = {
     "Men (%)": ["2.0 - 5.0", "5.1 - 13.0", "13.1 - 17.0", "17.1 - 25.0", "25.1+"]
 }
 
-
 df = pd.DataFrame(data)
 
 # Female Body Fat Calculator
@@ -33,7 +32,6 @@ def body_fat_male(age, height_in, weight_kg, neck, waist):
     fat_mass_kg = weight_kg * (bf_percent / 100)
     lean_mass_kg = weight_kg - fat_mass_kg
     return bf_percent, fat_mass_kg, lean_mass_kg
-
 
 # Streamlit App
 st.set_page_config(page_title="Body Fat Calculator")
