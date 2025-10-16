@@ -26,7 +26,7 @@ This is just a screenshot, it's static. But you can simply download the notebook
 
 - A clean, modern web-based version built using Streamlit.
 - You don't have to install anything to use this Web App.
-- You can try it directly in your browser here 👉 **[Live App](https://masscalculator.streamlit.app/)**
+- You can try it directly in your browser here 👉 **[Live App](https://nibeditans-body-fat-calculator.hf.space)**
 
 ## Features
 
@@ -101,7 +101,7 @@ Open `Mass Calculator.ipynb`, run the cells, and move the sliders to see results
 pip install -r requirements.txt
 streamlit run BFC_App.py
 ```
-Or simply use the [Live App](https://masscalculator.streamlit.app/)
+Or simply use the **[Live App](https://nibeditans-body-fat-calculator.hf.space)**
 
 ## 🛠️ Requirements
 
