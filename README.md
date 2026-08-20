@@ -2,11 +2,15 @@
 
 This is an interactive Python Web App that calculates Body Fat %, Fat Mass (KG), and Lean Mass (KG) from user inputs such as gender, age, height, weight, and body measurements. I've created three different implementations of the same core logic in this repository.
 
-Check out the complete articles:
+Check out the complete project walkthroughs:
 1. Body Fat Calculator Version 1: [Command-Line and Interactive Notebook](https://ai.plainenglish.io/body-fat-calculator-command-line-and-interactive-notebook-aa619e3d0f42)
 2. Body Fat Calculator Version 2: [Pandas and Streamlit](https://nsdsda.medium.com/body-fat-calculator-pandas-and-streamlit-a9f91391cc53)
 
-In the first Version, I have used two methods: Command-Line and Interactive Notebook. Second version is the web app. I used the same logic to all, just the approaches are different.
+In the first Version, I have used two methods: 
+1. Command-Line and Interactive Notebook.
+2. Second version is the web app.
+
+I used the same logic to all, just the approaches are different.
 
 ## 1. **Command-Line Version (`Mass Calculator.py`)**
 
@@ -103,7 +107,7 @@ Open `Mass Calculator.ipynb`, run the cells, and move the sliders to see results
 pip install -r requirements.txt
 streamlit run BFC_App.py
 ```
-Or simply use the **[Live App](https://nibeditans-body-fat-calculator.hf.space)**
+Or simply use the Live App: **[Body Fat Calculator](https://nibeditans-body-fat-calculator.hf.space)**
 
 ## 🛠️ Requirements
 
